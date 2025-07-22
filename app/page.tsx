@@ -5,8 +5,12 @@ import { HealthScoreCard } from "@/components/health-score-card"
 
 export default function HomePage() {
   return (
-    <main className="container mx-auto px-4 py-6 bg-[#f0f7ff]">
-      <h1 className="text-3xl md:text-4xl font-bold mb-6 text-center text-[#0c4a6e]">Bone Health Tracker</h1>
+    <main className="container mx-auto px-4 py-6 bg-[#f0f7ff] relative">
+      <div className="flex items-center justify-center mb-6">
+        <h1 className="text-3xl md:text-4xl font-bold text-center text-[#0c4a6e] mr-3">
+          Osteopique
+        </h1>
+      </div>
 
       <HealthScoreCard score={78} />
 

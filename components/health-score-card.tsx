@@ -49,7 +49,7 @@ export function HealthScoreCard({ score }: HealthScoreCardProps) {
         <Progress value={animatedScore} className="h-4 mb-4 bg-blue-100 transition-all duration-1000" />
 
         <p className="text-base md:text-lg text-center text-[#0c4a6e]">
-          Your bone health score is calculated based on sensor data, activity levels, and your health history.
+          Your bone health score is calculated based on smart band data and your reported health history.
         </p>
       </CardContent>
     </Card>
